@@ -1,0 +1,212 @@
+/* Highlight.js theme - Dark mode (One Dark inspired) - Enhanced */
+.dark .hljs { background: transparent !important; color: #abb2bf; }
+.dark .hljs-keyword { color: #c678dd; font-weight: 500; }
+.dark .hljs-string { color: #98c379; }
+.dark .hljs-number { color: #d19a66; }
+.dark .hljs-comment { color: #5c6370; font-style: italic; }
+.dark .hljs-function { color: #61afef; }
+.dark .hljs-title { color: #61afef; font-weight: 500; }
+.dark .hljs-built_in { color: #e6c07b; }
+.dark .hljs-attr { color: #d19a66; }
+.dark .hljs-variable { color: #e06c75; }
+.dark .hljs-type { color: #e6c07b; }
+.dark .hljs-literal { color: #56b6c2; }
+.dark .hljs-meta { color: #56b6c2; }
+.dark .hljs-symbol { color: #56b6c2; }
+.dark .hljs-regexp { color: #98c379; }
+.dark .hljs-tag { color: #e06c75; }
+.dark .hljs-name { color: #e06c75; }
+.dark .hljs-attribute { color: #d19a66; }
+.dark .hljs-selector-tag { color: #e06c75; }
+.dark .hljs-selector-class { color: #d19a66; }
+.dark .hljs-selector-id { color: #61afef; }
+.dark .hljs-selector-attr { color: #98c379; }
+.dark .hljs-selector-pseudo { color: #56b6c2; }
+.dark .hljs-template-variable { color: #e06c75; }
+.dark .hljs-addition { color: #98c379; background: rgba(152, 195, 121, 0.1); }
+.dark .hljs-deletion { color: #e06c75; background: rgba(224, 108, 117, 0.1); }
+.dark .hljs-property { color: #e06c75; }
+.dark .hljs-params { color: #abb2bf; }
+.dark .hljs-punctuation { color: #abb2bf; }
+.dark .hljs-operator { color: #56b6c2; }
+.dark .hljs-class { color: #e6c07b; }
+.dark .hljs-subst { color: #abb2bf; }
+.dark .hljs-section { color: #61afef; font-weight: 600; }
+.dark .hljs-bullet { color: #56b6c2; }
+.dark .hljs-code { color: #abb2bf; }
+.dark .hljs-emphasis { font-style: italic; }
+.dark .hljs-strong { font-weight: 700; }
+.dark .hljs-link { color: #61afef; text-decoration: underline; }
+.dark .hljs-doctag { color: #c678dd; font-weight: 600; }
+.dark .hljs-formula { color: #abb2bf; }
+.dark .hljs-params { color: #d19a66; }
+.dark .hljs-type { color: #e6c07b; font-style: italic; }
+/* Language-specific enhancements - Dark */
+.dark .hljs-language-javascript .hljs-keyword,
+.dark .hljs-language-typescript .hljs-keyword { color: #c678dd; font-weight: 500; }
+.dark .hljs-language-javascript .hljs-built_in,
+.dark .hljs-language-typescript .hljs-built_in { color: #e6c07b; }
+.dark .hljs-language-python .hljs-keyword { color: #c678dd; font-weight: 500; }
+.dark .hljs-language-python .hljs-built_in { color: #e6c07b; }
+.dark .hljs-language-python .hljs-decorator { color: #61afef; }
+.dark .hljs-language-rust .hljs-keyword { color: #c678dd; }
+.dark .hljs-language-rust .hljs-built_in { color: #e6c07b; }
+.dark .hljs-language-go .hljs-keyword { color: #c678dd; }
+.dark .hljs-language-go .hljs-built_in { color: #e6c07b; }
+.dark .hljs-language-java .hljs-keyword { color: #c678dd; }
+.dark .hljs-language-c .hljs-keyword { color: #c678dd; }
+.dark .hljs-language-cpp .hljs-keyword { color: #c678dd; }
+.dark .hljs-language-sql .hljs-keyword { color: #c678dd; }
+.dark .hljs-language-sql .hljs-string { color: #98c379; }
+.dark .hljs-language-bash .hljs-keyword { color: #c678dd; }
+.dark .hljs-language-bash .hljs-built_in { color: #e6c07b; }
+.dark .hljs-language-json .hljs-attr { color: #e06c75; }
+.dark .hljs-language-yaml .hljs-attr { color: #e06c75; }
+.dark .hljs-language-css .hljs-attribute { color: #98c379; }
+.dark .hljs-language-css .hljs-selector-tag { color: #e06c75; }
+.dark .hljs-language-css .hljs-selector-class { color: #d19a66; }
+.dark .hljs-language-css .hljs-selector-id { color: #61afef; }
+.dark .hljs-language-html .hljs-tag { color: #e06c75; }
+.dark .hljs-language-html .hljs-attribute { color: #d19a66; }
+.dark .hljs-language-markdown .hljs-section { color: #61afef; font-weight: 600; }
+.dark .hljs-language-markdown .hljs-code { color: #98c379; background: rgba(152, 195, 121, 0.08); padding: 0.1em 0.3em; border-radius: 3px; }
+.dark .hljs-language-markdown .hljs-link { color: #61afef; }
+.dark .hljs-language-diff .hljs-addition { color: #98c379; background: rgba(152, 195, 121, 0.15); }
+.dark .hljs-language-diff .hljs-deletion { color: #e06c75; background: rgba(224, 108, 117, 0.15); }
+.dark .hljs-language-diff .hljs-meta { color: #56b6c2; }
+
+/* Highlight.js theme - Light mode (One Light inspired) - Enhanced */
+:root:not(.dark) .hljs { background: transparent !important; color: #383a42; }
+:root:not(.dark) .hljs-keyword { color: #a626a4; font-weight: 500; }
+:root:not(.dark) .hljs-string { color: #50a14f; }
+:root:not(.dark) .hljs-number { color: #986801; }
+:root:not(.dark) .hljs-comment { color: #a0a1a7; font-style: italic; }
+:root:not(.dark) .hljs-function { color: #4078f2; }
+:root:not(.dark) .hljs-title { color: #4078f2; font-weight: 500; }
+:root:not(.dark) .hljs-built_in { color: #c18401; }
+:root:not(.dark) .hljs-attr { color: #986801; }
+:root:not(.dark) .hljs-variable { color: #e45649; }
+:root:not(.dark) .hljs-type { color: #c18401; }
+:root:not(.dark) .hljs-literal { color: #0184bc; }
+:root:not(.dark) .hljs-meta { color: #0184bc; }
+:root:not(.dark) .hljs-symbol { color: #0184bc; }
+:root:not(.dark) .hljs-regexp { color: #50a14f; }
+:root:not(.dark) .hljs-tag { color: #e45649; }
+:root:not(.dark) .hljs-name { color: #e45649; }
+:root:not(.dark) .hljs-attribute { color: #986801; }
+:root:not(.dark) .hljs-selector-tag { color: #e45649; }
+:root:not(.dark) .hljs-selector-class { color: #986801; }
+:root:not(.dark) .hljs-selector-id { color: #4078f2; }
+:root:not(.dark) .hljs-selector-attr { color: #50a14f; }
+:root:not(.dark) .hljs-selector-pseudo { color: #0184bc; }
+:root:not(.dark) .hljs-template-variable { color: #e45649; }
+:root:not(.dark) .hljs-addition { color: #50a14f; background: rgba(80, 161, 79, 0.1); }
+:root:not(.dark) .hljs-deletion { color: #e45649; background: rgba(228, 86, 73, 0.1); }
+:root:not(.dark) .hljs-property { color: #e45649; }
+:root:not(.dark) .hljs-params { color: #383a42; }
+:root:not(.dark) .hljs-punctuation { color: #383a42; }
+:root:not(.dark) .hljs-operator { color: #0184bc; }
+:root:not(.dark) .hljs-class { color: #c18401; }
+:root:not(.dark) .hljs-subst { color: #383a42; }
+:root:not(.dark) .hljs-section { color: #4078f2; font-weight: 600; }
+:root:not(.dark) .hljs-bullet { color: #0184bc; }
+:root:not(.dark) .hljs-code { color: #383a42; }
+:root:not(.dark) .hljs-emphasis { font-style: italic; }
+:root:not(.dark) .hljs-strong { font-weight: 700; }
+:root:not(.dark) .hljs-link { color: #4078f2; text-decoration: underline; }
+:root:not(.dark) .hljs-doctag { color: #a626a4; font-weight: 600; }
+:root:not(.dark) .hljs-formula { color: #383a42; }
+:root:not(.dark) .hljs-params { color: #986801; }
+:root:not(.dark) .hljs-type { color: #c18401; font-style: italic; }
+:root:not(.dark) .hljs-language-javascript .hljs-keyword,
+:root:not(.dark) .hljs-language-typescript .hljs-keyword { color: #a626a4; font-weight: 500; }
+:root:not(.dark) .hljs-language-javascript .hljs-built_in,
+:root:not(.dark) .hljs-language-typescript .hljs-built_in { color: #c18401; }
+:root:not(.dark) .hljs-language-python .hljs-keyword { color: #a626a4; font-weight: 500; }
+:root:not(.dark) .hljs-language-python .hljs-built_in { color: #c18401; }
+:root:not(.dark) .hljs-language-python .hljs-decorator { color: #4078f2; }
+:root:not(.dark) .hljs-language-rust .hljs-keyword { color: #a626a4; }
+:root:not(.dark) .hljs-language-rust .hljs-built_in { color: #c18401; }
+:root:not(.dark) .hljs-language-go .hljs-keyword { color: #a626a4; }
+:root:not(.dark) .hljs-language-go .hljs-built_in { color: #c18401; }
+:root:not(.dark) .hljs-language-java .hljs-keyword { color: #a626a4; }
+:root:not(.dark) .hljs-language-c .hljs-keyword { color: #a626a4; }
+:root:not(.dark) .hljs-language-cpp .hljs-keyword { color: #a626a4; }
+:root:not(.dark) .hljs-language-sql .hljs-keyword { color: #a626a4; }
+:root:not(.dark) .hljs-language-sql .hljs-string { color: #50a14f; }
+:root:not(.dark) .hljs-language-bash .hljs-keyword { color: #a626a4; }
+:root:not(.dark) .hljs-language-bash .hljs-built_in { color: #c18401; }
+:root:not(.dark) .hljs-language-json .hljs-attr { color: #e45649; }
+:root:not(.dark) .hljs-language-yaml .hljs-attr { color: #e45649; }
+:root:not(.dark) .hljs-language-css .hljs-attribute { color: #50a14f; }
+:root:not(.dark) .hljs-language-css .hljs-selector-tag { color: #e45649; }
+:root:not(.dark) .hljs-language-css .hljs-selector-class { color: #986801; }
+:root:not(.dark) .hljs-language-css .hljs-selector-id { color: #4078f2; }
+:root:not(.dark) .hljs-language-html .hljs-tag { color: #e45649; }
+:root:not(.dark) .hljs-language-html .hljs-attribute { color: #986801; }
+:root:not(.dark) .hljs-language-markdown .hljs-section { color: #4078f2; font-weight: 600; }
+:root:not(.dark) .hljs-language-markdown .hljs-code { color: #50a14f; background: rgba(80, 161, 79, 0.08); padding: 0.1em 0.3em; border-radius: 3px; }
+:root:not(.dark) .hljs-language-markdown .hljs-link { color: #4078f2; }
+:root:not(.dark) .hljs-language-diff .hljs-addition { color: #50a14f; background: rgba(80, 161, 79, 0.15); }
+:root:not(.dark) .hljs-language-diff .hljs-deletion { color: #e45649; background: rgba(228, 86, 73, 0.15); }
+:root:not(.dark) .hljs-language-diff .hljs-meta { color: #0184bc; }
+
+/* Code block container */
+.prose pre {
+  position: relative;
+  background: var(--bg-tertiary) !important;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 14px;
+  overflow-x: auto;
+  margin: 0.75em 0;
+  font-family: "SF Mono", "Fira Code", "Cascadia Code", "Consolas", monospace;
+  font-size: 0.85em;
+  line-height: 1.6;
+}
+
+.prose pre code {
+  background: transparent;
+  padding: 0;
+  font-size: inherit;
+}
+
+/* Inline code */
+.prose code:not(pre code) {
+  background: var(--bg-tertiary);
+  padding: 0.15em 0.4em;
+  border-radius: 4px;
+  font-size: 0.85em;
+  font-family: "SF Mono", "Fira Code", "Cascadia Code", "Consolas", monospace;
+  color: var(--accent);
+  border: 1px solid var(--border);
+}
+
+/* Copy button for code blocks */
+.code-block-wrapper {
+  position: relative;
+}
+
+.code-block-wrapper .copy-btn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  padding: 4px 8px;
+  font-size: 11px;
+  border-radius: 4px;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  color: var(--text-secondary);
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.code-block-wrapper:hover .copy-btn {
+  opacity: 1;
+}
+
+.code-block-wrapper .copy-btn:hover {
+  background: var(--bg-tertiary);
+  color: var(--text);
+}

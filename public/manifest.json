@@ -1,0 +1,12 @@
+{
+  "name": "Chat Dashboard",
+  "short_name": "ChatDash",
+  "description": "ChatGPT-style chat dashboard with sidebar, folders, and search",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#212121",
+  "theme_color": "#212121",
+  "icons": [
+    { "src": "/favicon.ico", "sizes": "any", "type": "image/x-icon" }
+  ]
+}
